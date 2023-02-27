@@ -50,7 +50,7 @@ function handleSearch(event) {
   )
     .then((response) => response.json())
     .then((data) => {
-      console.log("data ~>", data);
+      // console.log("data ~>", data);
       const lat = data[0].lat;
       const lon = data[0].lon;
 
@@ -59,7 +59,7 @@ function handleSearch(event) {
       )
         .then((response) => response.json())
         .then((data2) => {
-          console.log("data2 ~>", data2);
+          // console.log("data2 ~>", data2);
 
           currentCityTemp.innerHTML = "Temp: " + data2.list[0].main.temp + "°F";
           currentCityWind.innerHTML =
