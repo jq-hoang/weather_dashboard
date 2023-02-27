@@ -39,7 +39,7 @@ const recentlySearchedItem2 = document.querySelector(
 //  currentCityElement = currentCity
 
 function handleSearch(event) {
-  event.preventDefault();
+  // event.preventDefault();
 
   currentCityName.innerHTML = citySearch.value;
 
@@ -111,8 +111,8 @@ function handleSearch(event) {
           );
 
           // Update the recently searched items in the UI
-          recentlySearchedItem1.textContent = searchedCities[0] || "";
-          recentlySearchedItem2.textContent = searchedCities[1] || "";
+          // recentlySearchedItem1.textContent = searchedCities[0] || "";
+          // recentlySearchedItem2.textContent = searchedCities[1] || "";
         });
     });
 }
