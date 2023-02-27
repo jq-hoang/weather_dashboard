@@ -1,7 +1,7 @@
 # 06 Server-Side APIs: Weather Dashboard
 
 ## [Github Repo](https://github.com/jq-hoang/weather_dashboard)
-## [Deployed Link](https://link-url-here.org)
+## [Deployed Link](https://jq-hoang.github.io/weather_dashboard/)
 
 
 ## My Task
