@@ -46,7 +46,7 @@ function handleSearch(event) {
   const appid = "21312d8440b9b8b6e82049cd61f99fc3";
 
   fetch(
-    `http://api.openweathermap.org/geo/1.0/direct?q=${cityName.value}&appid=${appid}`
+    `https://api.openweathermap.org/geo/1.0/direct?q=${cityName.value}&appid=${appid}`
   )
     .then((response) => response.json())
     .then((data) => {
